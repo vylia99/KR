@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demosheshbesh.GameController">
+   <center>
+      <Pane fx:id="pane" focusTraversable="true" onMouseClicked="#processMouse" prefHeight="400.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+         <children>
+            <Canvas fx:id="canvas" height="400.0" width="400.0" />
+
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
